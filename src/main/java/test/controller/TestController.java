@@ -10,7 +10,7 @@ public class TestController {
 	@RequestMapping("/")
 	public ModelAndView index() {
 		ModelAndView mv = new ModelAndView("index");
-		mv.addObject("msg", "Hello World");
+		mv.addObject("msg", "이규훈");
 		return mv;
 	}
 }
